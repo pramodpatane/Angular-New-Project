@@ -1,0 +1,164 @@
+.first{
+    position: relative;
+    color: white;
+}
+
+.navbar{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+}
+div a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+div a:hover:after {
+    width: 100%;
+    background: orange;
+  }
+.navbar-brand{
+    padding-right: 100px;
+}
+.btn1{
+    background: #572BD9;
+}
+.content{
+    position: absolute;
+    top: 500%;
+    padding: 50px;
+    margin: auto;
+}
+
+.btn2, .btn3{
+    margin: 20px;
+}
+
+.btn2{
+    background: #FFDD33;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn3{
+    background: #572BD9;
+    color: white;
+    text-transform: uppercase;
+}
+.rect{
+    top: 520px;
+    left: 411px;
+    width: 500px;
+    height: 500px;
+}
+
+.content{
+    top: 10;
+
+    padding: 20px;
+    margin: auto;
+}
+.icon1, .text-icon{
+    float: left;
+    clear: both;
+}
+
+.choose-us{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.rect-content{
+    padding-top: 80px;
+}
+
+.choose-us2{
+    padding-top: 100px;
+}
+.card1{
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.rect2{
+    padding-left: 50px;
+    box-shadow: 20px 20px 20px 20px #888888;
+}
+
+.rect2, .rect-content{
+    float: left;
+    clear: both;
+}
+
+.btn4{
+    background-color: #572BD9;
+    color: white;
+    text-transform: uppercase;
+}
+
+.second{
+    top: 20px;
+    position: relative;
+}
+.second-content{
+    top: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+}
+
+.testimonial{
+    text-align: center;
+}
+
+#testimonial-header{
+    padding: 100px 50px;
+}
+
+.que-img{
+    float: left;
+}
+.que-content{
+    float: left;
+    clear: both;
+}
+.question{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.feedback{
+    padding: 50px;
+    text-align: center;
+}
+.feed2{
+    padding-top: 50px;
+}
+.button5{
+    background-color: #572BD9;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footer, .footer a{
+    background: #5B2AEE;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.author{
+    padding: 50px;
+}
